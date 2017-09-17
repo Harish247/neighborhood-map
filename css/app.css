@@ -1,0 +1,23 @@
+#map {
+    height: 100%;
+}
+#head-bar {
+    height: 5%;
+    background: #242222;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#menu-bar {
+    height: 100%;
+    width: 250px;
+    background: black;
+    float: left;
+}
+.fa-bars {
+    margin-top: 6px;
+    margin-left: 6px;
+    color: #02b3e4;
+}
