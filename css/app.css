@@ -21,3 +21,13 @@ html, body {
     margin-left: 6px;
     color: #02b3e4;
 }
+.locations {
+    color: white;
+    text-align: center;
+}
+.filter-section {
+}
+.filter-button {
+    color: white;
+    background: #02b3e4;
+}

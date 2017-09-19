@@ -7,7 +7,16 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <div id="menu-bar"></div>
+        <div id="menu-bar">
+            <h3 class="locations">Bart Locations</h3>
+            <div class="filter-section">
+                <input type="text" id="search-box" placeholder="Station location">
+                <button class="filter-button">
+                    <i class="fa fa-filter"></i>
+                    Filter
+                </button>
+            </div>
+        </div>
         <div id="head-bar">
             <i class="fa fa-bars fa-2x" data-bind="click: showHideMenu"></i> 
         </div>

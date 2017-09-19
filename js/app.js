@@ -8,7 +8,6 @@ function initMap(){
 let viewModal = {
     showHideMenu : function(){
         let menu = document.getElementById('menu-bar');
-        console.log(menu);
         if(menu.style.display === 'none'){
             menu.style.display = 'block';
         }else{
